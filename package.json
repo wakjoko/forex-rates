@@ -1,0 +1,20 @@
+{
+  "name": "forex-rates",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "sass": "^1.71.1",
+    "vite": "^5.1.4"
+  },
+  "dependencies": {
+    "@popperjs/core": "^2.11.8",
+    "bootstrap": "^5.3.3",
+    "luxon": "^3.4.4"
+  }
+}

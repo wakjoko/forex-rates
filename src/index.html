@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+  <div class="container">
+    <header class="pt-4 mb-4 border-bottom">
+      <h2>Let's rock to the moon</h2>
+    </header>
+
+    <div class="d-flex mb-4 justify-content-between">
+      <h5 class="fw-bold">Rates as of <span id="dateOfRates"></span></h5>
+      <div><input type="date" class="form-control" id="dateInput" min="2024-01-01" max="2024-12-31" /></div>
+    </div>
+
+    <div class="d-flex flex-wrap gap-4" id="shownRates"></div>
+  </div>
+
+  <script type="module" src="js/script.js"></script>
+</body>
+
+</html>
